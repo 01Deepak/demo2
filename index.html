@@ -1,11 +1,78 @@
+
+
 <html>
 <head>
 <title>first github page</title>
+    <!--**********************************88Style slide**********************-->
+  <style>
+
+body 
+    {
+      font-family: Verdana, sans-serif;
+    }
+.deepakslides 
+{
+    display: none;
+    }
+img 
+{
+    vertical-align: middle;
+    }
+
+/*bellow slider dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+</style>
+<!--**********************************88Style slide**********************-->
 </head>
 <body>
+  <!--****************************Slider & menu ******************************-->
+   <div class="row">
+   <div class="col-12">
+   
+   <img class="deepakslides fade" src="image/slider1.jpg" alt="slider1" style="height:100%;width:100%;"/>
+   </div>
+   
+   <img class="deepakslides fade" src="image/slider2.jpg" alt="slider2" style="height:100%;width:100%;"/>
+   <img class="deepakslides fade" src="image/slider3.jpg" alt="slider3" style="height:100%;width:100%;"/>
+   <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+  
+   
+   </div>
+
+
+<!--************************** slider********************************-->
 
 <h2>demo 2 </h2>
 <h3>This is my first github page</h3>
+  <p>slider</p>
 
 </body>
 </html>
