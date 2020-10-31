@@ -61,6 +61,18 @@ img
     /*------------- /1st content style --------------*/   
       
  /*-----------------------Responsive-------------------- */
+ .row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  margin-bottom:0px;
+}      
+      
 [class*="col-"] {
   width: 100%;
 }
